@@ -82,5 +82,7 @@
 - git stash apply stash@{0}                                 # 应用第一次暂存 
 - git grep "delete from"                                    # 文件中搜索文本“delete from” 
 - git grep -e '#define' --and -e SORT_DIRENT 
-- git gc 
-- git fsck
+- git gc                                                    # 压缩
+- git fsck                                                  # 一致性检查
+
+http://gitbook.liuhui998.com/index.html
